@@ -27,14 +27,14 @@ hr {
 .clothing-title {
     font-family: 'Mada', sans-serif;
     font-size: 14px;
-    color: #3f3f3f;
+    color: black;
     margin-top: 0;
 }
 
 .clothing-price {
     font-family: 'Mada', sans-serif;
     font-size: 15px;
-    color: #272727;
+    color: black;
     margin-top: -10px;
 }
 
