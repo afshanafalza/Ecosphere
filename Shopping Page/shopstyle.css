@@ -1,0 +1,162 @@
+.filter-and-sort {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 10px;
+}
+
+hr {
+    height: 1.1px;
+    background-color:#d4d4d4;
+    border: none;
+}
+
+.bottom-part {
+    padding-top: 120px;
+    display: flex;
+    /* align-items: center;
+    justify-items: center; */
+    gap: 60px;
+}
+
+.gender-font {
+    font-family: 'Mada', sans-serif;
+    font-size: 12px;
+}
+
+.clothing-title {
+    font-family: 'Mada', sans-serif;
+    font-size: 14px;
+    color: #3f3f3f;
+    margin-top: 0;
+}
+
+.clothing-price {
+    font-family: 'Mada', sans-serif;
+    font-size: 15px;
+    color: #272727;
+    margin-top: -10px;
+}
+
+.clothing-img {
+    border-radius: 1%;
+}
+
+.below-img {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.clothing-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    padding-left: 50px;
+    /* display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 40px; */
+}
+
+#gender-title  {
+    padding-left: 7px;
+    font-size: 14px;
+}
+
+/* UDEMY: Cheap Easy Checkboxes */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 200px;
+    margin-left: -28px;
+    margin-top: -15px;
+}
+
+.toggle {
+    visibility: hidden;
+}
+
+.label {
+    position: relative;
+    background-color: #d0d0d0;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px 0;
+    width: 40px;
+    height: 20px;
+}
+
+.toggle:checked + .label {
+    background-color: #458a58;
+}
+
+.ball {
+    background: #fff;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    align-items: center;
+    justify-content: center;
+    animation: slideOff 0.3s linear forwards;
+}
+
+.toggle:checked + .label .ball {
+    animation: slideOn 0.3s linear forwards;
+}
+
+@keyframes slideOn {
+    0% {
+        transform: translateX(0) scale(1)
+    }
+    50% {
+        transform: translateX(10px) scale(1.2);
+    }
+    100% {
+        transform: translateX(20px) scale(1);
+    }
+}
+
+@keyframes slideOff {
+    0% {
+        transform: translateX(20px) scale(1)
+    }
+    50% {
+        transform: translateX(10px) scale(1.2);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.material-icons.md-20 { 
+    font-size: 20px; 
+    height: 20px;
+}
+.material-icons.dark-grey { 
+    color: #d0d0d0; 
+}
+
+.material-icons.dark-grey:hover { 
+    color: #458a58; 
+    cursor: pointer;
+}

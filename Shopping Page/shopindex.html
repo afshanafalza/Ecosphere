@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link href="shopstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Universal Styles/footer_style.css">
+    <link rel="stylesheet" href="../Universal Styles/nav_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="nav">
+        <div class="container">
+          <a href="index.html" class="current">Ecosphere</a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bookView/book.html">Shop</a></li>
+            <li><a href="helpPage/help.html">About Us</a></li>
+            <li><a href="shoppingCart/shoppingCart.html"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Filter and Sort -->
+    <div class="bottom-part">
+        <div class="filter-and-sort"> 
+            <!-- Gender -->
+            <div class="gender">
+                <hr> 
+                <!-- Title -->
+                <p class="gender-font" id="gender-title">GENDER</p>
+
+                <!-- Womens Check Box -->
+                <div class="toggle-container">
+                    <input type="checkbox" id="women" class="toggle" checked>
+                    <label for="women" class="label">
+                        <div class="ball"></div>
+                    </label>
+                    <p class="gender-font">WOMEN's (95)</p>    
+                </div>
+
+                <!-- Mens Check Box -->
+                <div class="toggle-container">
+                    <input type="checkbox" id="men" class="toggle" checked>
+                    <label for="men" class="label">
+                        <div class="ball"></div>
+                    </label>
+                    <p class="gender-font">MEN'S (53)</p>    
+                </div>
+
+                <!-- Unisex Check Box -->
+                <div class="toggle-container">
+                    <input type="checkbox" id="unisex" class="toggle" checked>
+                    <label for="unisex" class="label">
+                        <div class="ball"></div>
+                    </label>
+                    <p class="gender-font">UNISEX (1)</p>    
+                </div>
+            </div>
+            <!-- Category -->
+            <div class="category">
+                <hr> 
+                <!-- Title -->
+                <p class="gender-font" id="gender-title">CATEGORY</p>
+
+                <!-- Jackets and Coats -->
+                <div class="toggle-container">
+                    <input type="checkbox" id="jacket" class="toggle" checked>
+                    <label for="jacket" class="label">
+                        <div class="ball"></div>
+                    </label>
+                    <p class="gender-font">JACKETS & COATS</p>    
+                </div>
+
+                <!-- Shirts and Tops -->
+                <div class="toggle-container">
+                    <input type="checkbox" id="top" class="toggle" checked>
+                    <label for="top" class="label">
+                        <div class="ball"></div>
+                    </label>
+                    <p class="gender-font">SHIRTS & TOPS</p>    
+                </div>
+
+                <!-- Pants -->
+                <div class="toggle-container">
+                    <input type="checkbox" id="bottom" class="toggle" checked>
+                    <label for="bottom" class="label">
+                        <div class="ball"></div>
+                    </label>
+                    <p class="gender-font">PANTS & BOTTOMS</p>    
+                </div>
+                <hr> 
+            </div>
+        </div>
+        <div class="clothing-cards">
+            <div class="clothing-card women top">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw8e3b892e/product_images/0740601600186NEW_00_012.jpg?sw=1000" alt="Girl in a shirt" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Long-Sleeve Cropped Sweater</p>
+                        <p class="clothing-price">$24</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women bottom">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwbab91cb8/product_images/0850601600076NEW_00_030.jpg?sw=1000" alt="Pants" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Green Cargo Pants</p>
+                        <p class="clothing-price">$72</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women top">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw972d5079/product_images/0793601600045NEW_00_280.jpg?sw=1000" alt="Girl in a sweater" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Blue Graphic Sweatshirt</p>
+                        <p class="clothing-price">$46</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women top">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw2cdba62f/product_images/0740601600167NEW_00_012.jpg?sw=1000" alt="Girl in a sweater" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Solid Green Sweatshirt</p>
+                        <p class="clothing-price">$38</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women jacket">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwb14c94a8/product_images/0760471630036NEW_00_011.jpg?sw=1000" alt="Jacket" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Reversible Sherpa Jacket</p>
+                        <p class="clothing-price">$83</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card men bottom">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw11f73d1a/product_images/0133436750172NEW_00_020.jpg?sw=1000" alt="Pants" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Relaxed Fit Cargo Pants</p>
+                        <p class="clothing-price">$75</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card men jacket">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw579054d3/product_images/0201444630024NEW_00_030.jpg?sw=1000" alt="Jacket" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Contrast Stitch Jacket</p>
+                        <p class="clothing-price">$90</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card men top">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw54c36341/product_images/0120519270029NEW_00_020.jpg?sw=1000" alt="Brown Shirt" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Basic Brown Shirt</p>
+                        <p class="clothing-price">$23</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card men top">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw99bc570f/product_images/0124468680023NEW_00_010.jpg?sw=1000" alt="Tank" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">White Tank Top</p>
+                        <p class="clothing-price">$18</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women top">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw0ef88b6a/product_images/0723468680168NEW_01_025.jpg?sw=1000" alt="Girl in a tank" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Sage Tank Top</p>
+                        <p class="clothing-price">$19</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women bottom">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwb194271a/product_images/0860602180109NEW_00_349.jpg?sw=1000" alt="Jeans" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Blue Ripped Jeans</p>
+                        <p class="clothing-price">$62</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card men bottom">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwafe9eb5c/product_images/0133436750181NEW_01_031.jpg?sw=1000" alt="Pants" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Baggy Cargo Pants</p>
+                        <p class="clothing-price">$70</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women bottom">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwddbd999c/product_images/0850436750208NEW_00_020.jpg?sw=1000" alt="Pants" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Brown Cargo Pants</p>
+                        <p class="clothing-price">$75</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card unisex jacket">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw4aac3c43/product_images/0200600270012NEW_00_001.jpg?sw=1000" alt="Jacket" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Insulated Snow Jacket</p>
+                        <p class="clothing-price">$160</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card women jacket">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwa1273e0b/product_images/0760436750155NEW_00_020.jpg?sw=1000" alt="Jacket" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Brown Cropped Jacket</p>
+                        <p class="clothing-price">$56</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+            <div class="clothing-card men bottom">
+                <img class="clothing-img" src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw61433c59/product_images/0133436750116NEW_00_041.jpg?sw=1000" alt="Pants" width="270px">
+                <div class="below-img">
+                    <div class="clothing-info">
+                        <p class="clothing-title">Navy Loose Cargo Pants</p>
+                        <p class="clothing-price">$89</p>        
+                    </div>
+                    <span class="material-icons md-20 dark-grey">add_box</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="shopscript.js"></script>
+</body>
+</html>
