@@ -95,18 +95,32 @@
 
     <!--Mailing List-->
 
-    <div class="mail-container">
-        <h1>Join our Mailing List</h1>
-
-        <form action="">
-            <div class="form-control">
-                <input type="text">
-                <label><span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">m</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">i</span><span style="transition-delay:200ms">l</span></label>
-            </div>
-
-            <button class="button-28" role="button">Join Mailing List</button>
+    <div class="container-2">
+        <h1>Join our Newsletter for Updates!</h1>
+        <form name="submit-to-google-sheet">
+          <div class="form-control">
+            <input type="email" name="Email" required>
+            <label>Email</label>
+            <!-- <label>
+              <span style="transition-delay: 0ms">E</span>
+                <span style="transition-delay: 50ms">m</span>
+                <span style="transition-delay: 100ms">a</span>
+                <span style="transition-delay: 150ms">i</span>
+                <span style="transition-delay: 200ms">l</span>
+          </label> -->
+          </div>
+  
+          <!-- <div class="form-control">
+            <input type="password" required>
+            <label>Password</label>
+          </div> -->
+  
+          <button class="btn">Join!</button>
+  
+          <!-- <p class="text">Don't have an account? <a href="#">Register</a> </p> -->
         </form>
-    </div>
+        <span id="msg"></span>
+      </div>
 
     <!-- Footer -->
     
@@ -122,4 +136,25 @@
     </div>
 
 
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwLfAkNJ4T1fDu4EWAIb9TZ02cwgKADwV56eetMeg8dxiTngajhWfj12iU6EfJVfx6U/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Thank you for joining!"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
 </body>
+</html>

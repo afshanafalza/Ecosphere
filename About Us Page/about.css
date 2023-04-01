@@ -209,101 +209,101 @@ img {
 }
 
 /*Mailing List*/
-.mail-container{
-    background-color: white;
-    padding: 20px 40px;
-    border-radius: 5px;
-}
-
-.mail-container h1{
-    text-align: left;
-    margin-bottom: 30px;
-    font-weight: lighter;
-}
-
-.mail-container a{
-    text-decoration: none;
+.container-2 {
+    /* background-color: steelblue; */
     color: black;
-}
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    overflow: hidden;
+  margin: 0;
+    
+    /* padding: 20px 40px; */
+    border-radius: 5px;
+  }
+  
+  .container-2 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .container-2 a {
+    text-decoration: none;
+    color: lightblue;
+  }
 
-.form-control{
+  .container-2 span{
+    color: #006909;
+    padding-top: 5px;
+  }
+  
+  .btn {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: #006909;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .btn:focus {
+    outline: 0;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .text {
+    margin-top: 30px;
+  }
+  
+  .form-control {
     position: relative;
-    margin: 20px 0px 40px;
+    margin: 20px 0 40px;
     width: 300px;
-}
-
-.form-control input{
+  }
+  
+  .form-control input {
     background-color: transparent;
     border: 0;
-    border-bottom: 2px white solid;
+    border-bottom: 2px black solid;
     display: block;
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
     color: black;
-}
-
-.form-control input:focus, .form-control input:valid{
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
     outline: 0;
-    border-bottom-color:black;
-}
-
-.form-control label{
+    border-bottom-color: #006909;
+  }
+  
+  .form-control label {
     position: absolute;
     top: 15px;
     left: 0;
-}
-
-.form-control label span{
+    pointer-events: none;
+  }
+  
+  .form-control label span {
     display: inline-block;
-    font-size: 20px;
-    min-width: 5px;
-    transition: 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);    
-}
-
-.form-control input:focus + label span,
-.form-control input:valid + label span{
-    color: black;
-    transform: translateY(-30px);
-}
-
-/* Footer */
-.footer-basic {
-    padding:40px 0;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-}
-  
-.footer-basic ul {
-    display: flex;
-    justify-content: center;
-    padding:0;
-    list-style: none;
-    text-align: center;
     font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
   
-.footer-basic li {
-    padding:0 10px;
-}
-  
-.footer-basic ul a {
-    color: inherit;
-    text-decoration:none;
-    opacity:0.8;
-}
-  
-.footer-basic ul a:hover {
-    opacity:1;
-}
-  
-  
-.footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    margin-bottom:0;
-}
-
+  .form-control input:focus + label span,
+  .form-control input:valid + label span {
+    color: rgb(0, 156, 26);
+    transform: translateY(-30px);
+  }
