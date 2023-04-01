@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --box-color: rgb(255, 255, 255);
+    --text-color: white;
+    --hover-color: rgb(89, 255, 67);
+}
+
+/*navbar*/
+.nav{
+    background-image: url('nav-bg.jpg');
+    position: fixed;
+    font-weight: bolder;
+    background-color: var(--box-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+}
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav.active{
+    background-color: var(--box-color);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.nav.active a{
+    color: var(--text-color);
+}
+
+.nav.active .container{
+    padding: 10px 0;
+}
+
+.nav a:hover {
+    color: var(--hover-color);
+}
+
+.nav a.current {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+/*main page*/
+.page {
+    padding-bottom: 0;
+    padding-top: 90px;
+    vertical-align: bottom;
+    width: 100%;
+
+}
+
+.main-container {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.text-box h2 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.column1 {
+    order: 1;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;  
+}
+
+
+.column2 {
+    order: 2;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*.column2.column2-show {
+    opacity: 1;
+}*/
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.column3 {
+    order: 2;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*.column3.column3-show {
+    opacity: 1;
+}*/
+
+.column4 {
+    order: 1;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.column5 {
+    order: 1;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.column6 {
+    order: 2;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/*.column6.column6-show {
+    opacity: 1;
+}*/
+.container4 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.column7 {
+    order: 2;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;    
+
+}
+/*.column7.column7-show {
+    opacity: 1;
+}*/
+.column8 {
+    order: 1;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*Mailing List*/
+.mail-container{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.mail-container h1{
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.mail-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-control{
+    position: relative;
+    margin: 20px 0px 40px;
+    width: 300px;
+}
+
+.form-control input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px white solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.form-control input:focus, .form-control input:valid{
+    outline: 0;
+    border-bottom-color:black;
+}
+
+.form-control label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.form-control label span{
+    display: inline-block;
+    font-size: 20px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);    
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+    color: black;
+    transform: translateY(-30px);
+}
+
+/* Footer */
+.footer-basic {
+    padding:40px 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+  
+.footer-basic ul {
+    display: flex;
+    justify-content: center;
+    padding:0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+  
+.footer-basic li {
+    padding:0 10px;
+}
+  
+.footer-basic ul a {
+    color: inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-basic ul a:hover {
+    opacity:1;
+}
+  
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    margin-bottom:0;
+}
+
