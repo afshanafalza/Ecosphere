@@ -10,7 +10,7 @@ function fixNav(){
   }
 }
 
-//Mailing List
+//Mailing List taken from udemy
 
 document.addEventListener("DOMContentLoaded", function() {
   const labels = document.querySelectorAll('.form-control label')
