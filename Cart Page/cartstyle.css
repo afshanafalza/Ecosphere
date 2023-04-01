@@ -50,10 +50,10 @@ hr {
 .quantity-text {
     font-family: 'Mada', sans-serif;
     font-size: 15px;
-    color: #b9b9b9;
+    color: black;
     height: 20px;
     width: 20px;
-    outline: solid 1px #b9b9b9;
+    outline: solid 1px black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -62,10 +62,10 @@ hr {
 .quantity-number {
     font-family: 'Mada', sans-serif;
     font-size: 15px;
-    color: #606060;
+    color: black;
     height: 20px;
     width: 20px;
-    outline: solid 1px #b9b9b9;
+    outline: solid 1px black;
     display: flex;
     justify-content: center;
     align-content: center;
