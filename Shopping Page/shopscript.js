@@ -1,5 +1,6 @@
 console.log("sup");
 
+// "Good, Cheap, Fast Checkboxes" taken from Udemy
 // Toggle button variables
 let womenToggle = document.querySelector("#women");
 let womenItems = document.querySelectorAll(".women");
