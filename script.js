@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function() {
             removeActiveClasses()
             panel.classList.add('active')
         })
-
     })
 
     function removeActiveClasses() {
@@ -30,9 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         })
     }
-
-
-    
+   
   });
 
   //testimonial box
