@@ -98,9 +98,7 @@ const testimonials = [
 
 let idx = 1
 
-function updateTestimonial() {
-
-  
+function updateTestimonial() {  
   const { name, position, photo, text } = testimonials[idx]
 
   testimonial.innerHTML = text
