@@ -1,3 +1,4 @@
+// taken from "50 Projects in 50 Days" "Feedback UI Design"
 
 const ratings = document.querySelectorAll('.rating')
 const ratingsContainer = document.querySelector('.ratings-container')
