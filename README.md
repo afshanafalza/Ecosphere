@@ -7,8 +7,8 @@ A web-based sustainable clothing store.
 - Tanjinul Hoque
 
 **__Documents__**
-- [Whitepaper](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/White%20Paper%20for%20Ecosphere.pdf)
-- [Graypaper]()
+- [White Paper](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/White%20Paper%20for%20Ecosphere.pdf)
+- [Gray Paper]()
 - [Video Link]()
 - [Website Screenshots](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/Website%20Screenshots.pdf)
 - [Wireframe](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/Ecosphere%20Wireframe.pdf)
