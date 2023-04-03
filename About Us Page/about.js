@@ -10,8 +10,7 @@ function fixNav(){
   }
 }
 
-//Mailing List taken from udemy
-
+// taken from "50 Projects in 50 Days" "Form Animation"
 document.addEventListener("DOMContentLoaded", function() {
   const labels = document.querySelectorAll('.form-control label')
 
