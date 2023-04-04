@@ -24,5 +24,5 @@ A web-based sustainable clothing store.
 - [Form Animation](https://github.com/afshanafalza/Ecosphere/blob/84e7f1d410c92dcff892bc9859f9e8d8fac9acec/About%20Us%20Page/about.js#L13)
 
 **__Place to input information and have it stored__**
-- [Code Implementation](https://github.com/afshanafalza/Ecosphere/blob/4aecf08ad337a3e60727e5b2b0af4b9b56aa1877/About%20Us%20Page/about.html#L99)
+- [Code Implementation](https://github.com/afshanafalza/Ecosphere/blob/2013ee9e830b0f9098896bdaecfcf8f1ac3c8370/public/About%20Us%20Page/about.html#L99)
 - [Data Sheet](https://docs.google.com/spreadsheets/d/100qGjWx-aTGcfo6dmqbQPhwUjNAJgUgef-dhI32TsXY/edit#gid=0)
