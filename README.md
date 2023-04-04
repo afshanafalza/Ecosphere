@@ -9,7 +9,7 @@ A web-based sustainable clothing store.
 **__Documents__**
 - [White Paper](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/White%20Paper%20for%20Ecosphere.pdf)
 - [Gray Paper]()
-- [Video Link]()
+- [Video Link](https://youtu.be/G_tb-xuZ5ws)
 - [Website Screenshots](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/Website%20Screenshots.pdf)
 - [Wireframe](https://github.com/afshanafalza/Ecosphere/blob/main/White%20Paper%2C%20Gray%20Paper%2C%20Video%20and%20Wireframe/Ecosphere%20Wireframe.pdf)
 - [Place to input information and have it stored (database/file)](https://github.com/afshanafalza/Ecosphere/blob/4aecf08ad337a3e60727e5b2b0af4b9b56aa1877/About%20Us%20Page/about.html#L99)
