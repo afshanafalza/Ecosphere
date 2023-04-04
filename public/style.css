@@ -1,20 +1,10 @@
-/* taken / adapted from "50 Projects in 50 Days" "Sticky Nav Bar" */
-/* body{
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin: 0;
-} */
-
 body{
   font-family: 'Montserrat', sans-serif;
 }
 
 /* banner */
 .banner, .banner-2 {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -26,12 +16,10 @@ body{
   }
   
   .banner {
-    /* background-color: #f0f0f0; */
     padding-top: 40px;
   }
   
   .banner-2 {
-    /* background-color: #d0d0d0; */
     margin-top: -150px; /* reduce margin-top to decrease the height between the two banners */
   }
 
@@ -55,7 +43,6 @@ body{
 /* The random card */
 .container2{
     display: flex;
-    /* width: 80vw; */
 }
 
 .panel{
@@ -162,7 +149,6 @@ body{
   }
   
   .grid-item {
-    /* background-color: #f2f2f2; */
     padding: 20px;
   }
   
