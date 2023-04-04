@@ -23,3 +23,6 @@ A web-based sustainable clothing store.
 - [Feedback UI Design](https://github.com/afshanafalza/Ecosphere/blob/970aba6f77bb9d3945aef75f995965ddcf11057e/Cart%20Page/cartscript.js#L1)
 - [Form Animation](https://github.com/afshanafalza/Ecosphere/blob/84e7f1d410c92dcff892bc9859f9e8d8fac9acec/About%20Us%20Page/about.js#L13)
 
+**__Place to input information and have it stored (database/file)__**
+- [Code](https://github.com/afshanafalza/Ecosphere/blob/4aecf08ad337a3e60727e5b2b0af4b9b56aa1877/About%20Us%20Page/about.html#L99)
+- [Document](https://docs.google.com/spreadsheets/d/100qGjWx-aTGcfo6dmqbQPhwUjNAJgUgef-dhI32TsXY/edit#gid=0)
